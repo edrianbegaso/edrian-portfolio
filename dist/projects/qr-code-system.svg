@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Illustration of a camera scanning a QR-style pattern">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08183a"/>
+      <stop offset="1" stop-color="#120a2e"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f8bff"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f8bff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#2f8bff" stop-opacity=".55"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <g stroke="#2f8bff" stroke-opacity=".08">
+    <path d="M0 100H800M0 200H800M0 300H800M0 400H800M100 0V500M200 0V500M300 0V500M400 0V500M500 0V500M600 0V500M700 0V500"/>
+  </g>
+  <g transform="translate(250 90)" fill="#dbe7ff">
+    <rect width="300" height="300" rx="14" fill="#0e1b45" stroke="url(#ac)" stroke-width="3"/>
+    <g fill="none" stroke="#8fc2ff" stroke-width="10">
+      <rect x="28" y="28" width="70" height="70"/><rect x="202" y="28" width="70" height="70"/><rect x="28" y="202" width="70" height="70"/>
+    </g>
+    <g fill="#8fc2ff">
+      <rect x="46" y="46" width="34" height="34"/><rect x="220" y="46" width="34" height="34"/><rect x="46" y="220" width="34" height="34"/>
+      <rect x="120" y="30" width="20" height="20"/><rect x="150" y="50" width="20" height="20"/><rect x="120" y="80" width="30" height="20"/>
+      <rect x="30" y="120" width="20" height="30"/><rect x="70" y="130" width="30" height="20"/><rect x="120" y="120" width="20" height="20"/>
+      <rect x="160" y="110" width="30" height="30"/><rect x="210" y="130" width="20" height="30"/><rect x="250" y="120" width="20" height="20"/>
+      <rect x="130" y="160" width="30" height="20"/><rect x="180" y="170" width="20" height="30"/><rect x="220" y="180" width="40" height="20"/>
+      <rect x="120" y="210" width="20" height="40"/><rect x="160" y="220" width="30" height="20"/><rect x="210" y="230" width="20" height="30"/>
+      <rect x="250" y="220" width="20" height="40"/><rect x="140" y="260" width="40" height="14"/>
+    </g>
+  </g>
+  <rect x="250" y="230" width="300" height="70" fill="url(#scan)"/>
+  <rect x="240" y="298" width="320" height="4" rx="2" fill="#2f8bff"/>
+  <g fill="none" stroke="url(#ac)" stroke-width="4" stroke-linecap="round">
+    <path d="M215 130V85H260M540 85H585V130M585 350V395H540M260 395H215V350"/>
+  </g>
+  <g font-family="monospace" font-size="16" fill="#8fc2ff">
+    <text x="250" y="440">SCAN &#8594; DECODE &#8594; DATA</text>
+  </g>
+</svg>
